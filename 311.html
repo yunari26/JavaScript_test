@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>ウェブページのタイトル</title>
+<script>
+function checknumber(){
+	if(document.getElementById("suji").value >= 10 && document.getElementById("suji2").value >= 10){
+		alert("OK");}
+	else{alert("NG")
+	}
+}
+</script>
+</head>
+<body>
+数字を2つ入力してください<br>
+<input type="text" id="suji"><br>
+<input type="text" id="suji2"><br>
+<button onclick = checknumber();>
+ボタンを押してね
+</button>
+</body>
+</html>
